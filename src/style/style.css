@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    margin-left: 27px;
+    margin-right: 27px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.navbar1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+hr{
+    border: 1px solid black;
+}
+ul{
+    list-style: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 120px;
+    border-left: solid black 1px;
+    border-right: 1px solid black;
+    min-width: 150px;
+}
+
+.nobrder_left{
+    border-left: none;
+}
+
+.noborder_right{
+    border-right: none;
+}
+
+ul li span{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 86px;
+    width: 780px;
+    /* identical to box height, or 143% */
+
+
+    color: #3C3C3C;
+}
+button{
+    width: auto;
+    min-width: 134px;
+    padding: 10px;
+    height: 33px;
+    background: #000000;
+    border: 2px solid #FFFFFF;
+    color: white;
+    font-size: 11px;
+    line-height: 13px;
+}
+.gray_block{
+    height: 25px;
+    background: #676C79;
+}
+.blog_content_container{
+    display: flex;
+}
+.blog_desc_container{
+    padding: 26px;
+    width: 870px;
+}
+.blog_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.date{
+    background: #6B5023;
+    padding: 13px 10px;
+}
+.date span{
+    color: white;
+}
+.blog-content{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.blog-content h1{
+    font-family: 'Lancelot';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 61px;
+    line-height: 65px;
+    color: #000000;
+}
+.blog-content p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    color: #3C3C3C;
+}
+.blog-content span{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 28px;
+    color: #000000;
+}
